@@ -3,6 +3,7 @@ package api
 import (
 	"github.com/gin-gonic/gin"
 	db "github.com/Gieveppix/go_bank/db/sqlc"
+	_ "github.com/lib/pq"
 )
 
 // Server serves HTTP requests for the banking service

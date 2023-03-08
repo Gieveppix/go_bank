@@ -7,6 +7,7 @@ import (
 	"time"
 
 	"github.com/Gieveppix/go_bank/util"
+	_ "github.com/lib/pq"
 	"github.com/stretchr/testify/require"
 )
 

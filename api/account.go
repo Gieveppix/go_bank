@@ -6,6 +6,7 @@ import (
 
 	db "github.com/Gieveppix/go_bank/db/sqlc"
 	"github.com/gin-gonic/gin"
+	_ "github.com/lib/pq"
 )
 
 type createAccountRequest struct {
